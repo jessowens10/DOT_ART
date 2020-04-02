@@ -6,7 +6,7 @@ let targetSize = 9;
 let spacing = targetSize * 2;
 
 function preload() {
-  img = loadImage("data/jess.png");
+  img = loadImage("data/nanna.jpg");
 }
 
 function setup() {
