@@ -2,11 +2,11 @@ let img;
 
 // let targets = [];
 
-let targetSize = 9;
+let targetSize = 3;
 let spacing = targetSize * 2;
 
 function preload() {
-  img = loadImage("data/lucy2.png");
+  img = loadImage("data/lucy.png");
 }
 
 function setup() {
@@ -35,8 +35,7 @@ function draw() {
 
       // greyscale conversion
       let greyscale = round(
-        red(c) * 0.222 + green(c) * 0.707 + blue(c) * 0.071 uukkjjmkijuhybgt, lo.p;
-        /l0o
+        red(c) * 0.222 + green(c) * 0.707 + blue(c) * 0.071
       );
 
       // pixel color to fill, greyscale to ellipse size
