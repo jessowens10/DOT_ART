@@ -2,7 +2,7 @@ let img;
 
 // let targets = [];
 
-let targetSize = 9;
+let targetSize = 15;
 let spacing = targetSize * 2;
 
 function preload() {
@@ -35,7 +35,8 @@ function draw() {
 
       // greyscale conversion
       let greyscale = round(
-        red(c) * 0.222 + green(c) * 0.707 + blue(c) * 0.071
+        red(c) * 0.222 + green(c) * 0.707 + blue(c) * 0.071 uukkjjmkijuhybgt, lo.p;
+        /l0o
       );
 
       // pixel color to fill, greyscale to ellipse size
