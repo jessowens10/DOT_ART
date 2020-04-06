@@ -16,7 +16,7 @@ const gridSample = targetSize / 10;
 
 function preload() {
   // update path to use your own images
-  img = loadImage("data/LucyTESTER.pdf");
+  img = loadImage("data/ONE.png");
 }
 
 function setup() {
