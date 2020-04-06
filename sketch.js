@@ -23,7 +23,7 @@ function setup() {
   // Canvas is 10 times the size of the image
   // If you want a different sized image just make the input
   // image the approprate size
-  createCanvas(img.width * 7, img.height * 7);
+  createCanvas(img.width * 4, img.height * 4);
 
   print(img.width + " • " + img.height);
 }
