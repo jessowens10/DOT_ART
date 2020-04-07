@@ -114,7 +114,7 @@ let img;
 
 // let targets = [];
 
-let targetSize = 11;
+let targetSize = 3;
 let spacing = targetSize * 2;
 
 function preload() {
@@ -123,7 +123,7 @@ function preload() {
 
 function setup() {
   // Canvas is 10 times the size of the image
-  createCanvas(img.width, img.height);
+  createCanvas(img.width * 10, img.height * 10);
   print(img.width + " • " + img.height);
 }
 
