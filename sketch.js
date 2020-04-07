@@ -114,7 +114,7 @@ let img;
 
 // let targets = [];
 
-let targetSize = 8;
+let targetSize = 10;
 let spacing = targetSize * 2;
 
 function preload() {
@@ -137,7 +137,7 @@ function draw() {
       if (gridY % 2 == 0) {
         posX = map(gridX, 0, img.width, spacing, width - spacing);
       } else {
-        posX = map(gridX, 0, img.width, spacing / 1, width - spacing / 1);
+        posX = map(gridX, 0, img.width, spacing / 2, width - spacing / 2);
       }
 
       let posY = map(gridY, 0, img.height, spacing, height - spacing);
@@ -153,7 +153,7 @@ function draw() {
       // pixel color to fill, greyscale to ellipse size
       let sizeScale = map(greyscale, 150, 255, targetSize, targetSize / 1.5);
 
-      target(gridX, gridY, posX, posY, sizeScale, 5, c);
+      target(gridX, gridY, posX, posY, sizeScale, 3, c);
     }
   }
 
