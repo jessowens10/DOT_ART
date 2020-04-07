@@ -151,7 +151,7 @@ function draw() {
       );
 
       // pixel color to fill, greyscale to ellipse size
-      let sizeScale = map(greyscale, 100, 255, targetSize, targetSize / 1.5);
+      let sizeScale = map(greyscale, 150, 255, targetSize, targetSize / 1.5);
 
       target(gridX, gridY, posX, posY, sizeScale, 5, c);
     }
