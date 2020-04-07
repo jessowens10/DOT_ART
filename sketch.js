@@ -114,7 +114,7 @@ let img;
 
 // let targets = [];
 
-let targetSize = 9;
+let targetSize = 3;
 let spacing = targetSize * 2;
 
 function preload() {
@@ -137,7 +137,7 @@ function draw() {
       if (gridY % 2 == 0) {
         posX = map(gridX, 0, img.width, spacing, width - spacing);
       } else {
-        posX = map(gridX, 0, img.width, spacing / 2, width - spacing / 2);
+        posX = map(gridX, 0, img.width, spacing / 1, width - spacing / 1);
       }
 
       let posY = map(gridY, 0, img.height, spacing, height - spacing);
