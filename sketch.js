@@ -118,12 +118,12 @@ let targetSize = 9;
 let spacing = targetSize * 2;
 
 function preload() {
-  img = loadImage("data/Lucyowens.png");
+  img = loadImage("data/lucy.png");
 }
 
 function setup() {
   // Canvas is 10 times the size of the image
-  createCanvas(width, height);
+  createCanvas(img.width * 10, img.height * 10);
   print(img.width + " • " + img.height);
 }
 
