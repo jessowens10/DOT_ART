@@ -118,7 +118,7 @@ let targetSize = 9;
 let spacing = targetSize * 2;
 
 function preload() {
-  img = loadImage("data/lucy.png");
+  img = loadImage("data/hello.png");
 }
 
 function setup() {
@@ -151,7 +151,7 @@ function draw() {
       );
 
       // pixel color to fill, greyscale to ellipse size
-      let sizeScale = map(greyscale, 0, 255, targetSize, targetSize / 1.5);
+      let sizeScale = map(greyscale, 100, 255, targetSize, targetSize / 1.5);
 
       target(gridX, gridY, posX, posY, sizeScale, 5, c);
     }
