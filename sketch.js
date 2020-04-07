@@ -123,6 +123,7 @@ function preload() {
 
 function setup() {
   // Canvas is 10 times the size of the image
+  img.resize(67, 0);
   createCanvas(img.width * 10, img.height * 10);
   print(img.width + " • " + img.height);
 }
