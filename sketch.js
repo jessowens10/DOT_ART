@@ -114,7 +114,7 @@ let img;
 
 // let targets = [];
 
-let targetSize = 13;
+let targetSize = 8;
 let spacing = targetSize * 2;
 
 function preload() {
