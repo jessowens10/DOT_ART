@@ -114,7 +114,7 @@ let img;
 
 // let targets = [];
 
-let targetSize = 15;
+let targetSize = 11;
 let spacing = targetSize * 2;
 
 function preload() {
@@ -177,6 +177,9 @@ function target(gridX, gridY, xPos, yPos, size, circleNum, myColor) {
   }
 }
 
+function keyPressed() {
+  saveCanvas("img", "png");
+}
 // function keyReleased() {
 //   if (key == "s" || key == "S") saveCanvas(gd.timestamp(), "png");
 // }
