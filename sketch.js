@@ -1,7 +1,7 @@
 let img;
 
 // Size of target
-const targetSize = 10;
+const targetSize = 15;
 // Number of rings
 const targetSamples = 3;
 // Adjust the size of the targets
@@ -16,7 +16,7 @@ const gridSample = targetSize / 10;
 
 function preload() {
   // update path to use your own images
-  img = loadImage("data/ONE.png");
+  img = loadImage("data/Lucyownes.png");
 }
 
 function setup() {
