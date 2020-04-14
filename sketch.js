@@ -1,7 +1,7 @@
 let img;
 
 // Size of target
-let targetSize = 34.5;
+let targetSize = 34.;
 // Number of rings
 let targetSamples = 3;
 // Adjust the size of the targets
@@ -16,7 +16,7 @@ let gridSample;
 
 function preload() {
   // update path to use your own images
-  img = loadImage("data/nan-closeup-2.png");
+  img = loadImage("data/nannapicture.png");
 }
 
 function setup() {
