@@ -1,7 +1,7 @@
 let img;
 
 // Size of target
-let targetSize = 30;
+let targetSize = 40;
 // Number of rings
 let targetSamples = 3;
 // Adjust the size of the targets
