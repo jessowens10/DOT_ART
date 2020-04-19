@@ -16,7 +16,7 @@ let gridSample;
 
 function preload() {
   // update path to use your own images
-  img = loadImage("data/nan-closeup-2.png");
+  img = loadImage("data/Drunk6.png.jpg.png");
 }
 
 function setup() {
